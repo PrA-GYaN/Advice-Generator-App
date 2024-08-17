@@ -8,9 +8,8 @@ p
 {
     position: relative;
     font-family: "Manrope", sans-serif;
-    padding: 3vw;
+    padding: 2vw 2vw 4vw 2vw;
     display: flex;
-    max-width: 35vw;
     width: 35vw;
     justify-content: center;
     align-items: center;
@@ -45,25 +44,72 @@ p
 }
 .icon
 {
-    width: 100%;
-    height: 2vw;
-    background: url("../assets/icon-dice.svg");
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 45%;
+    max-width: 80px;
+    height: 50px;
+    background: url("../assets/icon-dice.svg") center no-repeat;
+    background-size: contain;
 }
 .back
 {
     position: absolute;
     bottom: -9%;
-    left: 44.5%;
     width: 10%;
+    height: 18%;
+    max-height: 45px;
     border-radius: 50%;
-    padding:0.6vw 0;
     background-color: hsl(150, 100%, 66%);
     transition: all ease-in-out 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .back:hover
 {
     cursor: pointer;
     box-shadow:0 0 20px 4px hsl(150, 100%, 66%)
 }
+@media only screen and (max-width:768px) {
+    .card-main
+    {
+        width: 45vw;
+        padding: 4vw 4vw 6vw 4vw;
+    }
+    .card-main .sub
+    {
+        font-size: 1.7vw;
+    }
+    .card-main .main
+    {
+        font-size: 2.5vw;
+    }
+    .back
+    {
+        width: 13%;
+    }
+    .image
+    {
+        height: 4vw;
+    }
+  }
+  @media only screen and (max-width:375px) {
+    .image
+    {
+        background: url("../assets/pattern-divider-mobile.svg") center no-repeat;
+        height: 6vw;
+    }
+    .card-main
+    {
+        width: 95vw;
+        gap: 6vw;
+        padding: 8vw 6vw 16vw 6vw;
+    }
+    .card-main .sub
+    {
+        font-size: 4vw;
+    }
+    .card-main .main
+    {
+        font-size: 6vw;
+    }
+  }
