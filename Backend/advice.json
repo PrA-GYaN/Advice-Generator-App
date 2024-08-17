@@ -1,0 +1,85 @@
+{
+    "advice": [
+      {
+        "advice_number": 1,
+        "advice": "If at first you don’t succeed, call it version 1.0."
+      },
+      {
+        "advice_number": 2,
+        "advice": "Programmers are tools for converting caffeine into code."
+      },
+      {
+        "advice_number": 3,
+        "advice": "Why do programmers prefer dark mode? Because light attracts bugs."
+      },
+      {
+        "advice_number": 4,
+        "advice": "Never trust a computer you can’t throw out a window."
+      },
+      {
+        "advice_number": 5,
+        "advice": "To err is human; to really mess things up, you need a computer."
+      },
+      {
+        "advice_number": 6,
+        "advice": "There are two hard things in computer science: cache invalidation and naming things. The third is off-by-one errors."
+      },
+      {
+        "advice_number": 7,
+        "advice": "A good programmer is someone who looks both ways before crossing a one-way street."
+      },
+      {
+        "advice_number": 8,
+        "advice": "If debugging is the process of removing bugs, then programming must be the process of putting them in."
+      },
+      {
+        "advice_number": 9,
+        "advice": "Why do programmers hate nature? It has too many bugs."
+      },
+      {
+        "advice_number": 10,
+        "advice": "In programming, the hardest thing to do is to keep your code from being hacked while simultaneously making it accessible to everyone. It’s like walking a tightrope over a pit of alligators."
+      },
+      {
+        "advice_number": 11,
+        "advice": "Don’t worry if it doesn’t work right. If everything did, you’d be out of a job."
+      },
+      {
+        "advice_number": 12,
+        "advice": "A programmer’s favorite type of music is ‘Bandwith.’"
+      },
+      {
+        "advice_number": 13,
+        "advice": "You know you’re a programmer when you spend more time trying to figure out why your code isn’t working than actually writing the code."
+      },
+      {
+        "advice_number": 14,
+        "advice": "Programmers are the only people who can work in a code dungeon and still manage to find a sunny spot in their day."
+      },
+      {
+        "advice_number": 15,
+        "advice": "A good programmer will always tell you that their code is ‘almost perfect’ and never ‘perfect.’"
+      },
+      {
+        "advice_number": 16,
+        "advice": "Keep calm and code on. If it’s broken, there’s a solution — or at least a workaround!"
+      },
+      {
+        "advice_number": 17,
+        "advice": "If you can’t convince them, confuse them. But only if you’re confident your code will work eventually."
+      },
+      {
+        "advice_number": 18,
+        "advice": "Code like there’s no tomorrow — and then clean up the mess when you wake up."
+      },
+      {
+        "advice_number": 19,
+        "advice": "If you think you’re done with a project, just remember: it’s never really done. It’s just in a perpetual state of ‘almost there.’"
+      },
+      {
+        "advice_number": 20,
+        "advice": "Remember, code doesn’t lie, but comments do. Always keep an eye on your comments — they might be plotting against you."
+      }
+    ]
+  }
+  

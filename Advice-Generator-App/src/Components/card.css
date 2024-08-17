@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+p
+{
+    margin: 0;
+    padding: 0;
+}
+.card-main
+{
+    position: relative;
+    font-family: "Manrope", sans-serif;
+    padding: 3vw;
+    display: flex;
+    max-width: 35vw;
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(217, 19%, 24%);
+    border-radius: 0.75vw;
+    text-align: center;
+    flex-direction: column;
+    gap: 2vw;
+}
+.image
+{
+    background: url("../assets/pattern-divider-desktop.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 2vw;
+    display: flex;
+}
+.card-main .sub
+{
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: hsl(150, 100%, 66%);
+}
+.card-main .main
+{
+    font-size: 1.7vw;
+    color: white;
+    opacity: 0.8;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+}
+.icon
+{
+    width: 100%;
+    height: 2vw;
+    background: url("../assets/icon-dice.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.back
+{
+    position: absolute;
+    bottom: -9%;
+    left: 44.5%;
+    width: 10%;
+    border-radius: 50%;
+    padding:0.6vw 0;
+    background-color: hsl(150, 100%, 66%);
+    transition: all ease-in-out 0.3s;
+}
+.back:hover
+{
+    cursor: pointer;
+    box-shadow:0 0 20px 4px hsl(150, 100%, 66%)
+}
